@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FinalProjectExecution">
+    <test name="test1" />
+            <parameter name="userRole" value="Admin" />
+            <parameter name="Employee_name" value="Nina" />
+            <parameter name="status" value="Enabled" />
+            <parameter name="username" value="James" />
+            <parameter name="password" value="Pass123" />
+            <parameter name="confirmpassword" value="Pass123" />
+    <test name="test2" >
+        <parameter name="employeename" value="Nina" />
+        <classes>
+            <class name="org.example.FinalProject"></class>
+        </classes>
+    </test>
+</suite>
